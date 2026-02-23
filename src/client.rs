@@ -1,8 +1,4 @@
-use std::{
-    fs,
-    path::PathBuf,
-    time::Duration,
-};
+use std::{fs, path::PathBuf, time::Duration};
 
 use graphql_client::GraphQLQuery;
 use reqwest::{
